@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/GoogleHomePage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+svg {
+    height: 30px;
+    width: 30px;
+    fill: white;
+}
+.navbar {
+    display: flex;
+    margin-left: 1250px;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.google{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifx;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 40%;
+    font-weight: 600;
+}
+.google>.g1{
+    color: dodgerblue;
+    font-size: 92px;
+}
+.google>.o1{
+    color: red;
+    font-size: 92px;
+}
+.google>.o2{
+    color: yellow;
+    font-size: 92px;
+}
+.google>.g2{
+    color: dodgerblue;
+    font-size: 92px;
+}
+.google>.l1{
+    color: green;
+    font-size: 92px;
+}
+.google>.e1{
+    color: red;
+    font-size: 92px;
+}
+.srch{
+    margin-top: 50px;
+    margin-left: 30%;
+}
+.srchbar{
+    height: 45px;
+    width: 600px;
+    border-radius: 40px;
+    font-size: 20px;
+    z-index: -100;
+    border: 0px;
+}
+.srch .srch-icon{
+    position: absolute;
+    color: #62656a;
+    font-size: 17px;
+    top: 42.3%;
+    left: 31%;
+}
+.srch #mic-icon{
+    position: absolute;
+    right: 35%;
+    top: 42%;
+    color: #4f8df3;
+    font-size: 20px;
+}
+.srch #cam-icon{
+    position: absolute;
+    color: #4f8df3;
+    font-size: 20px;
+    top: 42%;
+    right: 32%;
+}
+.srchbar:focus{
+    padding-left:50px;
+    font-display: none;
+    border: 0px;
+}
+.d1:hover{
+    background-color: rgba(215, 215, 215, 0.285);
+    border-radius: 5%;
+}
+.p3{
+    margin-top: 7px;
+}
+.p4{
+    margin-top: -15px;
+}
+.p5{
+    margin-top: 20px;
+}
+.p8{
+    margin-top: 3px;
+}   
+.p9{
+    margin-top: 5px;
+}
+.sites >.d10{
+    color: white;
+}
+.indiv10{
+    height: 50px;
+    width: 50px;
+    padding-top: 16px;
+    padding-left: 17px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.p10{
+    margin-top: 20px;
+}
+.sites{
+    height: 200px;
+    width: 1000px;
+    color: aliceblue;
+    display: grid;
+    margin-left: 480px;
+    margin-top: 30px;
+    grid-template-columns: repeat(5,100px);
+    grid-column-gap:30px;
+    grid-template-rows: repeat(2,100px);
+    grid-row-gap:30px;
+}
+.d10:hover{
+    background-color: rgba(215, 215, 215, 0.285);
+}
